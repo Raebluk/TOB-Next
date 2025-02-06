@@ -25,12 +25,20 @@ export const generalConfig: GeneralConfigType = {
 	// define the bot activities (phrases under its name). Types can be: PLAYING, LISTENING, WATCHING, STREAMING
 	activities: [
 		{
-			text: 'discord.js v14 with tscord',
+			text: '老姚',
 			type: 'PLAYING',
 		},
 		{
-			text: 'some knowledge',
+			text: '老姚的卧室',
 			type: 'STREAMING',
+		},
+		{
+			text: '老姚唱歌',
+			type: 'LISTENING',
+		},
+		{
+			text: '老姚洗澡',
+			type: 'WATCHING',
 		},
 	],
 
@@ -38,6 +46,5 @@ export const generalConfig: GeneralConfigType = {
 
 // global colors
 export const colorsConfig = {
-
 	primary: '#2F3136',
 }
