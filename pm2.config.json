@@ -1,9 +1,14 @@
 {
     "apps": [
         {
-            "name": "My Discord Bot",
+            "name": "TOB-Next",
             "script": "npm",
             "args" : "run build:start"
+        },
+        {
+            "name": "Flask Backend Server",
+            "script": "python",
+            "args": "python/main.py"
         }
     ]
 }
